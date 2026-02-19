@@ -1,0 +1,24 @@
+{
+  "loop_duration": 180,
+  "events": [
+    {
+      "time": 10,
+      "type": "incoming_sms",
+      "sender": "Szef",
+      "content": "Kod zmieniłem na rok urodzenia Orwella."
+    },
+    {
+      "time": 25,
+      "type": "incoming_sms",
+      "sender": "Archiwum",
+      "content": "W starej notatce: George Orwell (Eric Arthur Blair) ur. 1903. Hasło awaryjne: 1984."
+    }
+  ],
+  "puzzles": [
+    {
+      "id": "door_code",
+      "solution": "1984",
+      "location": "sms_thread_boss"
+    }
+  ]
+}
